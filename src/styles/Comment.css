@@ -1,0 +1,21 @@
+.message {
+  padding: 10px;
+  position: relative;
+}
+.message:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 1px solid;
+  border-color: #C4CBCF transparent transparent #C4CBCF;
+  width: 15px;
+  height: 15px;
+  top: -8px;
+  left: 25px;
+  background: inherit;
+  
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
