@@ -1,7 +1,7 @@
 import { AboutMe } from './components/AboutMe'
 import { Reviews } from './components/Reviews'
 import { Services } from './components/Services'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AddComment } from './components/AddComment'
 
 function App() {
